@@ -66,11 +66,12 @@
 		7933B02E1EF0CE2B009241A8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C54EA9851EF03F500036705A /* Main.storyboard */,
 				C54EA9821EF03F500036705A /* ViewController.h */,
 				C54EA9831EF03F500036705A /* ViewController.mm */,
-				C54EA9851EF03F500036705A /* Main.storyboard */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		7933B02F1EF0CE3A009241A8 /* CPP */ = {
@@ -80,6 +81,7 @@
 				C54EA9A21EF03F7C0036705A /* Greeting.hpp */,
 			);
 			name = CPP;
+			path = CPP;
 			sourceTree = "<group>";
 		};
 		7933B0301EF0CE47009241A8 /* Resources */ = {
@@ -89,14 +91,15 @@
 				C54EA98A1EF03F500036705A /* LaunchScreen.storyboard */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C54EA9701EF03F500036705A = {
 			isa = PBXGroup;
 			children = (
+				C54EA97A1EF03F500036705A /* Products */,
 				C54EA97B1EF03F500036705A /* ios-hello-cpp-demo */,
 				C54EA9951EF03F500036705A /* ios-hello-cpp-demoTests */,
-				C54EA97A1EF03F500036705A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,13 +115,13 @@
 		C54EA97B1EF03F500036705A /* ios-hello-cpp-demo */ = {
 			isa = PBXGroup;
 			children = (
+				7933B02F1EF0CE3A009241A8 /* CPP */,
+				7933B02E1EF0CE2B009241A8 /* Controllers */,
+				7933B0301EF0CE47009241A8 /* Resources */,
+				C54EA97C1EF03F500036705A /* Supporting Files */,
 				C54EA97F1EF03F500036705A /* AppDelegate.h */,
 				C54EA9801EF03F500036705A /* AppDelegate.m */,
 				C54EA98D1EF03F500036705A /* Info.plist */,
-				7933B02E1EF0CE2B009241A8 /* Controllers */,
-				7933B02F1EF0CE3A009241A8 /* CPP */,
-				7933B0301EF0CE47009241A8 /* Resources */,
-				C54EA97C1EF03F500036705A /* Supporting Files */,
 			);
 			path = "ios-hello-cpp-demo";
 			sourceTree = "<group>";
@@ -129,13 +132,14 @@
 				C54EA97D1EF03F500036705A /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		C54EA9951EF03F500036705A /* ios-hello-cpp-demoTests */ = {
 			isa = PBXGroup;
 			children = (
-				C54EA9961EF03F500036705A /* ios_hello_cpp_demoTests.m */,
 				C54EA9981EF03F500036705A /* Info.plist */,
+				C54EA9961EF03F500036705A /* ios_hello_cpp_demoTests.m */,
 			);
 			path = "ios-hello-cpp-demoTests";
 			sourceTree = "<group>";
@@ -274,6 +278,7 @@
 				C54EA9861EF03F500036705A /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		C54EA98A1EF03F500036705A /* LaunchScreen.storyboard */ = {
@@ -282,6 +287,7 @@
 				C54EA98B1EF03F500036705A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

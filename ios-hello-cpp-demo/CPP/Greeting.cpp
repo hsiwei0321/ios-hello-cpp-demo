@@ -14,6 +14,6 @@ Greeting::Greeting() {
 }
 
 //メソッド
-std::string Greeting::greet() {
+string Greeting::greet() {
     return greeting;
 }

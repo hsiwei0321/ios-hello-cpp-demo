@@ -11,12 +11,13 @@
 
 #include <stdio.h>
 #include <string>
+using namespace std;
 
 class Greeting {
-    std::string greeting;
+    string greeting;
 public:
     Greeting();
-    std::string greet();
+    string greet();
 };
 
 
