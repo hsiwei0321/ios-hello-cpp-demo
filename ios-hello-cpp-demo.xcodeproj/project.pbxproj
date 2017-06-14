@@ -63,6 +63,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7933B02E1EF0CE2B009241A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C54EA9821EF03F500036705A /* ViewController.h */,
+				C54EA9831EF03F500036705A /* ViewController.mm */,
+				C54EA9851EF03F500036705A /* Main.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7933B02F1EF0CE3A009241A8 /* CPP */ = {
+			isa = PBXGroup;
+			children = (
+				C54EA9A11EF03F7C0036705A /* Greeting.cpp */,
+				C54EA9A21EF03F7C0036705A /* Greeting.hpp */,
+			);
+			name = CPP;
+			sourceTree = "<group>";
+		};
+		7933B0301EF0CE47009241A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C54EA9881EF03F500036705A /* Assets.xcassets */,
+				C54EA98A1EF03F500036705A /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C54EA9701EF03F500036705A = {
 			isa = PBXGroup;
 			children = (
@@ -86,15 +114,11 @@
 			children = (
 				C54EA97F1EF03F500036705A /* AppDelegate.h */,
 				C54EA9801EF03F500036705A /* AppDelegate.m */,
-				C54EA9821EF03F500036705A /* ViewController.h */,
-				C54EA9831EF03F500036705A /* ViewController.mm */,
-				C54EA9851EF03F500036705A /* Main.storyboard */,
-				C54EA9881EF03F500036705A /* Assets.xcassets */,
-				C54EA98A1EF03F500036705A /* LaunchScreen.storyboard */,
 				C54EA98D1EF03F500036705A /* Info.plist */,
+				7933B02E1EF0CE2B009241A8 /* Controllers */,
+				7933B02F1EF0CE3A009241A8 /* CPP */,
+				7933B0301EF0CE47009241A8 /* Resources */,
 				C54EA97C1EF03F500036705A /* Supporting Files */,
-				C54EA9A11EF03F7C0036705A /* Greeting.cpp */,
-				C54EA9A21EF03F7C0036705A /* Greeting.hpp */,
 			);
 			path = "ios-hello-cpp-demo";
 			sourceTree = "<group>";
@@ -416,6 +440,7 @@
 				C54EA99D1EF03F500036705A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C54EA99E1EF03F500036705A /* Build configuration list for PBXNativeTarget "ios-hello-cpp-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				C54EA9A01EF03F500036705A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
