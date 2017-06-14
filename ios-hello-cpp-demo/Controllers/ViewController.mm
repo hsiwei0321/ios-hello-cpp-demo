@@ -8,10 +8,12 @@
 
 #import "ViewController.h"
 #import "Greeting.hpp"
+#import "Neko.hpp"
 
 // cppをimportするファイルは、mmファイルに変更する
 @interface ViewController () {
     Greeting greeting;
+    Neko cat;
 }
 @end
 
@@ -24,10 +26,12 @@
 /// CPPのファイルを表示する
 - (IBAction)didTapButton:(UIButton *)sender {
 
-    NSLog(@"%@",
-          [NSString stringWithCString:greeting.greet().c_str()
-                             encoding:[NSString defaultCStringEncoding]]);
+//    NSLog(@"%@",
+//          [NSString stringWithCString:greeting.greet().c_str()
+//                             encoding:[NSString defaultCStringEncoding]]);
 
+    cat.setName("たま");
+    cat.cry();
 }
 
 @end
