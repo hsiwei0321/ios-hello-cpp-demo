@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C54EA97E1EF03F500036705A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C54EA97D1EF03F500036705A /* main.m */; };
+		C54EA9811EF03F500036705A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54EA9801EF03F500036705A /* AppDelegate.m */; };
+		C54EA9841EF03F500036705A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C54EA9831EF03F500036705A /* ViewController.mm */; };
+		C54EA9871EF03F500036705A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54EA9851EF03F500036705A /* Main.storyboard */; };
+		C54EA9891EF03F500036705A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54EA9881EF03F500036705A /* Assets.xcassets */; };
+		C54EA98C1EF03F500036705A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54EA98A1EF03F500036705A /* LaunchScreen.storyboard */; };
+		C54EA9971EF03F500036705A /* ios_hello_cpp_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C54EA9961EF03F500036705A /* ios_hello_cpp_demoTests.m */; };
+		C54EA9A31EF03F7C0036705A /* Greeting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C54EA9A11EF03F7C0036705A /* Greeting.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C54EA9931EF03F500036705A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C54EA9711EF03F500036705A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C54EA9781EF03F500036705A;
+			remoteInfo = "ios-hello-cpp-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C54EA9791EF03F500036705A /* ios-hello-cpp-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-hello-cpp-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54EA97D1EF03F500036705A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C54EA97F1EF03F500036705A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C54EA9801EF03F500036705A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C54EA9821EF03F500036705A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C54EA9831EF03F500036705A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		C54EA9861EF03F500036705A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C54EA9881EF03F500036705A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C54EA98B1EF03F500036705A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C54EA98D1EF03F500036705A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54EA9921EF03F500036705A /* ios-hello-cpp-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-hello-cpp-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54EA9961EF03F500036705A /* ios_hello_cpp_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_hello_cpp_demoTests.m; sourceTree = "<group>"; };
+		C54EA9981EF03F500036705A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54EA9A11EF03F7C0036705A /* Greeting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Greeting.cpp; sourceTree = "<group>"; };
+		C54EA9A21EF03F7C0036705A /* Greeting.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Greeting.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C54EA9761EF03F500036705A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54EA98F1EF03F500036705A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C54EA9701EF03F500036705A = {
+			isa = PBXGroup;
+			children = (
+				C54EA97B1EF03F500036705A /* ios-hello-cpp-demo */,
+				C54EA9951EF03F500036705A /* ios-hello-cpp-demoTests */,
+				C54EA97A1EF03F500036705A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C54EA97A1EF03F500036705A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C54EA9791EF03F500036705A /* ios-hello-cpp-demo.app */,
+				C54EA9921EF03F500036705A /* ios-hello-cpp-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C54EA97B1EF03F500036705A /* ios-hello-cpp-demo */ = {
+			isa = PBXGroup;
+			children = (
+				C54EA97F1EF03F500036705A /* AppDelegate.h */,
+				C54EA9801EF03F500036705A /* AppDelegate.m */,
+				C54EA9821EF03F500036705A /* ViewController.h */,
+				C54EA9831EF03F500036705A /* ViewController.mm */,
+				C54EA9851EF03F500036705A /* Main.storyboard */,
+				C54EA9881EF03F500036705A /* Assets.xcassets */,
+				C54EA98A1EF03F500036705A /* LaunchScreen.storyboard */,
+				C54EA98D1EF03F500036705A /* Info.plist */,
+				C54EA97C1EF03F500036705A /* Supporting Files */,
+				C54EA9A11EF03F7C0036705A /* Greeting.cpp */,
+				C54EA9A21EF03F7C0036705A /* Greeting.hpp */,
+			);
+			path = "ios-hello-cpp-demo";
+			sourceTree = "<group>";
+		};
+		C54EA97C1EF03F500036705A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C54EA97D1EF03F500036705A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C54EA9951EF03F500036705A /* ios-hello-cpp-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C54EA9961EF03F500036705A /* ios_hello_cpp_demoTests.m */,
+				C54EA9981EF03F500036705A /* Info.plist */,
+			);
+			path = "ios-hello-cpp-demoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C54EA9781EF03F500036705A /* ios-hello-cpp-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54EA99B1EF03F500036705A /* Build configuration list for PBXNativeTarget "ios-hello-cpp-demo" */;
+			buildPhases = (
+				C54EA9751EF03F500036705A /* Sources */,
+				C54EA9761EF03F500036705A /* Frameworks */,
+				C54EA9771EF03F500036705A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-hello-cpp-demo";
+			productName = "ios-hello-cpp-demo";
+			productReference = C54EA9791EF03F500036705A /* ios-hello-cpp-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C54EA9911EF03F500036705A /* ios-hello-cpp-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54EA99E1EF03F500036705A /* Build configuration list for PBXNativeTarget "ios-hello-cpp-demoTests" */;
+			buildPhases = (
+				C54EA98E1EF03F500036705A /* Sources */,
+				C54EA98F1EF03F500036705A /* Frameworks */,
+				C54EA9901EF03F500036705A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C54EA9941EF03F500036705A /* PBXTargetDependency */,
+			);
+			name = "ios-hello-cpp-demoTests";
+			productName = "ios-hello-cpp-demoTests";
+			productReference = C54EA9921EF03F500036705A /* ios-hello-cpp-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C54EA9711EF03F500036705A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Eiji Kushida";
+				TargetAttributes = {
+					C54EA9781EF03F500036705A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C54EA9911EF03F500036705A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C54EA9781EF03F500036705A;
+					};
+				};
+			};
+			buildConfigurationList = C54EA9741EF03F500036705A /* Build configuration list for PBXProject "ios-hello-cpp-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C54EA9701EF03F500036705A;
+			productRefGroup = C54EA97A1EF03F500036705A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C54EA9781EF03F500036705A /* ios-hello-cpp-demo */,
+				C54EA9911EF03F500036705A /* ios-hello-cpp-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C54EA9771EF03F500036705A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54EA98C1EF03F500036705A /* LaunchScreen.storyboard in Resources */,
+				C54EA9891EF03F500036705A /* Assets.xcassets in Resources */,
+				C54EA9871EF03F500036705A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54EA9901EF03F500036705A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C54EA9751EF03F500036705A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54EA9841EF03F500036705A /* ViewController.mm in Sources */,
+				C54EA9811EF03F500036705A /* AppDelegate.m in Sources */,
+				C54EA9A31EF03F7C0036705A /* Greeting.cpp in Sources */,
+				C54EA97E1EF03F500036705A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54EA98E1EF03F500036705A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54EA9971EF03F500036705A /* ios_hello_cpp_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C54EA9941EF03F500036705A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C54EA9781EF03F500036705A /* ios-hello-cpp-demo */;
+			targetProxy = C54EA9931EF03F500036705A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C54EA9851EF03F500036705A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54EA9861EF03F500036705A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C54EA98A1EF03F500036705A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54EA98B1EF03F500036705A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C54EA9991EF03F500036705A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C54EA99A1EF03F500036705A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C54EA99C1EF03F500036705A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-hello-cpp-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-hello-cpp-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C54EA99D1EF03F500036705A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-hello-cpp-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-hello-cpp-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C54EA99F1EF03F500036705A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-hello-cpp-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-hello-cpp-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-hello-cpp-demo.app/ios-hello-cpp-demo";
+			};
+			name = Debug;
+		};
+		C54EA9A01EF03F500036705A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-hello-cpp-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-hello-cpp-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-hello-cpp-demo.app/ios-hello-cpp-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C54EA9741EF03F500036705A /* Build configuration list for PBXProject "ios-hello-cpp-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54EA9991EF03F500036705A /* Debug */,
+				C54EA99A1EF03F500036705A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54EA99B1EF03F500036705A /* Build configuration list for PBXNativeTarget "ios-hello-cpp-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54EA99C1EF03F500036705A /* Debug */,
+				C54EA99D1EF03F500036705A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C54EA99E1EF03F500036705A /* Build configuration list for PBXNativeTarget "ios-hello-cpp-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54EA99F1EF03F500036705A /* Debug */,
+				C54EA9A01EF03F500036705A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C54EA9711EF03F500036705A /* Project object */;
+}
