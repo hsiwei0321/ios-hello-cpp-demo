@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7933B0331EF0D058009241A8 /* Neko.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7933B0311EF0D058009241A8 /* Neko.cpp */; };
+		7933B0361EF0D5E6009241A8 /* SalaryNeko.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7933B0341EF0D5E6009241A8 /* SalaryNeko.cpp */; };
 		C54EA97E1EF03F500036705A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C54EA97D1EF03F500036705A /* main.m */; };
 		C54EA9811EF03F500036705A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54EA9801EF03F500036705A /* AppDelegate.m */; };
 		C54EA9841EF03F500036705A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C54EA9831EF03F500036705A /* ViewController.mm */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		7933B0311EF0D058009241A8 /* Neko.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Neko.cpp; sourceTree = "<group>"; };
 		7933B0321EF0D058009241A8 /* Neko.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Neko.hpp; sourceTree = "<group>"; };
+		7933B0341EF0D5E6009241A8 /* SalaryNeko.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SalaryNeko.cpp; sourceTree = "<group>"; };
+		7933B0351EF0D5E6009241A8 /* SalaryNeko.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SalaryNeko.hpp; sourceTree = "<group>"; };
 		C54EA9791EF03F500036705A /* ios-hello-cpp-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-hello-cpp-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54EA97D1EF03F500036705A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C54EA97F1EF03F500036705A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				C54EA9A21EF03F7C0036705A /* Greeting.hpp */,
 				7933B0311EF0D058009241A8 /* Neko.cpp */,
 				7933B0321EF0D058009241A8 /* Neko.hpp */,
+				7933B0341EF0D5E6009241A8 /* SalaryNeko.cpp */,
+				7933B0351EF0D5E6009241A8 /* SalaryNeko.hpp */,
 			);
 			path = CPP;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				TargetAttributes = {
 					C54EA9781EF03F500036705A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PCCZJUYRT6;
 						ProvisioningStyle = Automatic;
 					};
 					C54EA9911EF03F500036705A = {
@@ -249,6 +255,7 @@
 			files = (
 				C54EA9841EF03F500036705A /* ViewController.mm in Sources */,
 				C54EA9811EF03F500036705A /* AppDelegate.m in Sources */,
+				7933B0361EF0D5E6009241A8 /* SalaryNeko.cpp in Sources */,
 				C54EA9A31EF03F7C0036705A /* Greeting.cpp in Sources */,
 				C54EA97E1EF03F500036705A /* main.m in Sources */,
 				7933B0331EF0D058009241A8 /* Neko.cpp in Sources */,
@@ -387,7 +394,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-hello-cpp-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-hello-cpp-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,7 +407,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-hello-cpp-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-hello-cpp-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
