@@ -62,6 +62,7 @@
 
     list<int> points = sum.getPoints();
 
+    //TODO : intのデータが正しく表示できない
     for(auto point = points.begin(); point != points.end(); point++) {
         NSLog(@"%zd", point);
     }
@@ -73,6 +74,7 @@
                                         encoding:[NSString defaultCStringEncoding]]);
     }
 
+    //TODO : classデータが正しく操作できない
     cat.setName("tama");
     NSLog(@"%@", [NSString stringWithCString:cat.getName().c_str()
                                     encoding:[NSString defaultCStringEncoding]]);
