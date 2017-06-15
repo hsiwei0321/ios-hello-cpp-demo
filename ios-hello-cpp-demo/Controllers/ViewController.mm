@@ -72,6 +72,10 @@
         NSLog(@"%@", [NSString stringWithCString:week->c_str()
                                         encoding:[NSString defaultCStringEncoding]]);
     }
+
+    cat.setName("tama");
+    NSLog(@"%@", [NSString stringWithCString:cat.getName().c_str()
+                                    encoding:[NSString defaultCStringEncoding]]);
 }
 
 

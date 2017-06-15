@@ -22,6 +22,7 @@ private:
 public:
     Neko();
     void setName(string n);
+    string getName();
     void cry() const;
 };
 

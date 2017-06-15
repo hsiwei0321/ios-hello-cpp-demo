@@ -64,3 +64,19 @@ list<string> Sum::getWeeks() {
     weeks.emplace_back("Sat.");
     return weeks;
 }
+
+list<Neko> Sum::getNekos() {
+
+    list<Neko> nekos;
+
+    Neko cat1 = Neko();
+    cat1.setName("1");
+    nekos.emplace_back(cat1);
+
+    Neko cat2 = Neko();
+    cat1.setName("2");
+    nekos.emplace_back(cat2);
+
+    return nekos;
+}
+

@@ -16,6 +16,10 @@ void Neko::setName(string n) {
     name = n;
 }
 
+string Neko:: getName() {
+    return name;
+}
+
 void Neko::cry() const {
     cout << name << endl;
 }

@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <list>
 #include <string>
+#include "Neko.hpp"
 using namespace std;
 
 class Sum {
@@ -25,6 +26,7 @@ public:
     int total();
     double ave();
     list<string> getWeeks();
+    list<Neko> getNekos();
 };
 
 #endif /* Sum_hpp */
