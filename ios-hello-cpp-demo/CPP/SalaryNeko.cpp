@@ -12,6 +12,10 @@
 SalaryNeko::SalaryNeko() {
     monthlyPay = 20;
 }
+/// デストラクタ
+SalaryNeko::~SalaryNeko() {
+    cout << "~SalaryNeko" << endl;
+}
 
 /**
  月収を返す

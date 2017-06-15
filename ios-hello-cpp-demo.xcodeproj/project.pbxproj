@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7933B0331EF0D058009241A8 /* Neko.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7933B0311EF0D058009241A8 /* Neko.cpp */; };
 		7933B0361EF0D5E6009241A8 /* SalaryNeko.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7933B0341EF0D5E6009241A8 /* SalaryNeko.cpp */; };
+		7978B5711EF13E5400A8B350 /* Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7978B56F1EF13E5400A8B350 /* Sum.cpp */; };
 		C54EA97E1EF03F500036705A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C54EA97D1EF03F500036705A /* main.m */; };
 		C54EA9811EF03F500036705A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54EA9801EF03F500036705A /* AppDelegate.m */; };
 		C54EA9841EF03F500036705A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C54EA9831EF03F500036705A /* ViewController.mm */; };
@@ -34,6 +35,8 @@
 		7933B0321EF0D058009241A8 /* Neko.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Neko.hpp; sourceTree = "<group>"; };
 		7933B0341EF0D5E6009241A8 /* SalaryNeko.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SalaryNeko.cpp; sourceTree = "<group>"; };
 		7933B0351EF0D5E6009241A8 /* SalaryNeko.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SalaryNeko.hpp; sourceTree = "<group>"; };
+		7978B56F1EF13E5400A8B350 /* Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sum.cpp; sourceTree = "<group>"; };
+		7978B5701EF13E5400A8B350 /* Sum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sum.hpp; sourceTree = "<group>"; };
 		C54EA9791EF03F500036705A /* ios-hello-cpp-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-hello-cpp-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54EA97D1EF03F500036705A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C54EA97F1EF03F500036705A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				7933B0321EF0D058009241A8 /* Neko.hpp */,
 				7933B0341EF0D5E6009241A8 /* SalaryNeko.cpp */,
 				7933B0351EF0D5E6009241A8 /* SalaryNeko.hpp */,
+				7978B56F1EF13E5400A8B350 /* Sum.cpp */,
+				7978B5701EF13E5400A8B350 /* Sum.hpp */,
 			);
 			path = CPP;
 			sourceTree = "<group>";
@@ -194,7 +199,7 @@
 		C54EA9711EF03F500036705A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Eiji Kushida";
 				TargetAttributes = {
 					C54EA9781EF03F500036705A = {
@@ -256,6 +261,7 @@
 				C54EA9841EF03F500036705A /* ViewController.mm in Sources */,
 				C54EA9811EF03F500036705A /* AppDelegate.m in Sources */,
 				7933B0361EF0D5E6009241A8 /* SalaryNeko.cpp in Sources */,
+				7978B5711EF13E5400A8B350 /* Sum.cpp in Sources */,
 				C54EA9A31EF03F7C0036705A /* Greeting.cpp in Sources */,
 				C54EA97E1EF03F500036705A /* main.m in Sources */,
 				7933B0331EF0D058009241A8 /* Neko.cpp in Sources */,
@@ -311,7 +317,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -319,7 +327,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -358,7 +370,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -366,7 +380,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

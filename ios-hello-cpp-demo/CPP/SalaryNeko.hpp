@@ -18,6 +18,7 @@ private:
 
 public:
     SalaryNeko();
+    ~SalaryNeko();
     int getMonthlyPay();
     int getYearPay();
     void incrementMonthlyPay();
